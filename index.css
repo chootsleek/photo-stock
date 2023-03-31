@@ -1,0 +1,35 @@
+/* Reset styles for consistency across browsers */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set body background color and font */
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+/* Set header background color, text color, and add a border bottom */
+header {
+  background-color: #222222;
+  color: #ffffff;
+  border-bottom: 1px solid #dddddd;
+}
+
+/* Set header h1 font size, margin, and padding */
+header h1 {
+  font-size: 24px;
+  margin: 0;
+  padding: 10px;
+}
+
+/* Set header navigation font size, margin, and padding */
+header nav {
+  font-size: 18px;
+  margin: 0;
+  padding: 10px;
+}
+
+/* Set header navigation list style to none
