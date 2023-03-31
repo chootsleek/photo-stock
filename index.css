@@ -1,48 +1,63 @@
-/* Reset styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Global styles */
-body {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
+/* Style for the header */
 header {
   background-color: #333;
-  color: #fff;
-  padding: 20px;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+/* Style for the navigation menu */
+nav {
+  display: inline-block;
+  margin-top: 10px;
 }
 
 nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-nav ul li {
-  margin-right: 20px;
+nav li {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: red;
 }
 
-nav ul li:last-child {
-  margin-right: 0;
-}
-
-nav ul li a {
-  color: #fff;
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  font-weight: bold;
-  transition: all 0.3s ease;
 }
 
-nav ul li a:hover {
-  color: #f1c40f;
+nav li a:hover {
+  background-color: #111;
 }
 
-main {
-  max-width: 960px;
-  margin: 0 auto;
+/* Style for the main content */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gallery img {
+  margin: 10px;
+}
+
+/* Style for the footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.contacts {
+  margin-top: 5px;
+}
