@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Photo Stock</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Photo Stock</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Search</a></li>
+          <li><a href="#">Favorites</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="search">
+        <h2>Search for Photos</h2>
+        <form>
+          <input type="text" placeholder="Enter a keyword...">
+          <button type="submit">Search</button>
+        </form>
+      </section>
+      <section id="results">
+        <h2>Search Results</h2>
+        <ul>
+          <li>
+            <img src="https://picsum.photos/200/300" alt="Random photo">
+            <p>Photo title</p>
+            <button>Add to favorites</button>
+          </li>
+          <li>
+            <img src="https://picsum.photos/200/300" alt="Random photo">
+            <p>Photo title</p>
+            <button>Add to favorites</button>
+          </li>
+          <li>
+            <img src="https://picsum.photos/200/300" alt="Random photo">
+            <p>Photo title</p>
+            <button>Add to favorites</button>
+          </li>
+        </ul>
+      </section>
+      <section id="favorites">
+        <h2>Favorites</h2>
+        <ul>
+          <li>
+            <img src="https://picsum.photos/200/300" alt="Random photo">
+            <p>Photo title</p>
+            <button>Remove from favorites</button>
+          </li>
+          <li>
+            <img src="https://picsum.photos/200/300" alt="Random photo">
+            <p>Photo title</p>
+            <button>Remove from favorites</button>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>Photo Stock &copy; 2023</p>
+    </footer>
+    <script src="app.js"></script>
+    <script src="main.ts"></script>
+  </body>
+</html>
