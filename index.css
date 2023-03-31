@@ -1,35 +1,48 @@
-/* Reset styles for consistency across browsers */
+/* Reset styles */
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-/* Set body background color and font */
+/* Global styles */
 body {
-  background-color: #f2f2f2;
   font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
-/* Set header background color, text color, and add a border bottom */
 header {
-  background-color: #222222;
-  color: #ffffff;
-  border-bottom: 1px solid #dddddd;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
 }
 
-/* Set header h1 font size, margin, and padding */
-header h1 {
-  font-size: 24px;
-  margin: 0;
-  padding: 10px;
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
 
-/* Set header navigation font size, margin, and padding */
-header nav {
-  font-size: 18px;
-  margin: 0;
-  padding: 10px;
+nav ul li {
+  margin-right: 20px;
 }
 
-/* Set header navigation list style to none
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #f1c40f;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
