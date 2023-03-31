@@ -1,58 +1,39 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Photo Stock</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <script src="script.ts" type="module"></script>
-</head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#categories">Categories</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section id="home">
-      <h1>Welcome to Photo Stock</h1>
-      <p>Find the perfect photo for your next project</p>
-    </section>
-    <section id="categories">
-      <h2>Categories</h2>
-      <ul>
-        <li><a href="#">Nature</a></li>
-        <li><a href="#">Travel</a></li>
-        <li><a href="#">Animals</a></li>
-        <li><a href="#">People</a></li>
-        <li><a href="#">Food</a></li>
-        <li><a href="#">Abstract</a></li>
-      </ul>
-    </section>
-    <section id="about">
-      <h2>About</h2>
-      <p>Photo Stock is a website for finding high-quality photos for personal or commercial use. Our collection includes a wide range of categories and styles, so you can always find the perfect image for your project.</p>
-    </section>
-    <section id="contact">
-      <h2>Contact Us</h2>
-      <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name"><br><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email"><br><br>
-        <label for="message">Message:</label>
-        <textarea id="message" name="message"></textarea><br><br>
-        <input type="submit" value="Submit">
-      </form>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2023 Photo Stock</p>
-  </footer>
-</body>
-</html>
+  <head>
+    <title>Photo Stock</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+  <body>
+    <header>
+      <h1>Photo Stock</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <div class="gallery">
+        <img src="https://picsum.photos/id/1018/300/200" alt="Photo 1">
+        <img src="https://picsum.photos/id/1025/300/200" alt="Photo 2">
+        <img src="https://picsum.photos/id/1035/300/200" alt="Photo 3">
+        <img src="https://picsum.photos/id/1059/300/200" alt="Photo 4">
+        <img src="https://picsum.photos/id/1074/300/200" alt="Photo 5">
+        <img src="https://picsum.photos/id/1084/300/200" alt="Photo 6">
+      </div>
+    </main>
+
+    <footer>
+      <div class="contacts">
+        <h2>Contact Us</h2>
+        <p>Email: contact@photostock.com</p>
+        <p>Phone: 123-456-7890</p>
+      </div>
+    </footer>
+  </body>
+</html> 
